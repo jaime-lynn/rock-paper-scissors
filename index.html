@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://use.fontawesome.com/b915c6e2c8.js"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<!--write html below this line-->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h1>ROCK, PAPER, SCISSORS</h1>
+				<h4>Make your choice and see how you match up against the computer!</h4>
+			</div>
+			<div class="col-sm-12">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<div class="row text-center">
+							<div class="col-xs-4">
+								<button class="btn btn-success btn-lg" onclick="play('rock')"><i class="fa fa-hand-rock-o"></i> ROCK</button>
+</div>
+<div class="col-xs-4">
+	<button class="btn btn-warning btn-lg" onclick="play('paper')"><i class="fa fa-hand-paper-o"></i> PAPER</button>
+</div>
+<div class="col-xs-4">
+	<button class="btn btn-danger btn-lg" onclick="play('scissors')"><i class="fa fa-hand-scissors-o"></i> SCISSORS</button>
+</div>
+</div>
+</div>
+<div class="panel-body text-center">
+	<div class="row">
+		<div class="col-xs-6">
+			<h2>You played:</h2>
+			<h3 id="player-choice"></h3>
+		</div>
+		<div class="col-xs-6">
+			<h2>Computer played:</h2>
+			<h3 id="computer-choice"></h3>
+		</div>
+	</div>
+	<h1 id="result">Result?</h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--write html above this line-->
+<!--the following line is used to link your javascript file.-->
+<script src="app.js"></script>
+</body>
+
+</html>
